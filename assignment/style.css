@@ -1,9 +1,39 @@
 .info {
-  color: blue;
-  background-color: green;
+  color: #C6C37A;
+  background-color: #1A760C;
+  text-align: center;
+  padding: 25px;
+  margin: 50px;
+  font-family: verdana;
+  font-size: 25px;
+  text-transform: uppercase;
+  border: 5px;
+  border-style: dotted;
+  border-color: #C6C37A;
+  box-shadow: 0px 0px 0px 5px #1A760C;
+  transition: box-shadow 0.6s linear;
+  margin: 0.5em;
+
+
+}
+
+.info:hover {
+  box-shadow: 0px 0px 0px 10px #C6C37A;
 }
 
 .car {
-  color: red;
-  background-color: black;
+  color: #D9D199;
+  background-color: #108907;
+  text-align: center;
+}
+
+.image {
+  text-align: center;
+}
+
+img {
+  padding:1px;
+  border:5px solid #021a40;
+  margin: 20px;
+
 }
